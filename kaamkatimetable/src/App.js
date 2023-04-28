@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import DisplaySchedules from './components/dIsplayschedules';
-import Form from './components/fOrmcom';
-import Header from './components/headercomp';
-import Home from './components/homecomp';
-import ViewTimetable from './components/viewtimetable';
-import ExistingSchedules from './components/existingschedules';
-import Instructions from './components/instructions';
+import DisplaySchedules from './components/displayschedules.jsx';
+import Form from './components/formcomp.jsx';
+import Header from './components/headercomp.jsx';
+import Home from './components/homecomp.jsx';
+import ViewTimetable from './components/viewtimetable.jsx';
+import ExistingSchedules from './components/existingschedules.jsx';
+import Instructions from './components/instructions.jsx';
 
 
 function App() {
